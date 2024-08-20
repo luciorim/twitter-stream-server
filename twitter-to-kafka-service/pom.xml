@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>kz.luc</groupId>
-    <artifactId>twitter-streaming-server</artifactId>
+    <artifactId>twitter-to-kafka-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>twitter-streaming-server</name>
-    <description>twitter-streaming-server</description>
+    <name>twitter-to-kafka-service</name>
+    <description>twitter-to-kafka-service</description>
     <url/>
     <licenses>
         <license/>
@@ -63,6 +63,7 @@
             <artifactId>httpclient5</artifactId>
             <version>${httpclint5.version}</version>
         </dependency>
+
 
     </dependencies>
 

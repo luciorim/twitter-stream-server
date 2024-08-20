@@ -1,10 +1,10 @@
-package kz.luc.twitterstreamingserver;
+package kz.luc.twittertokafkaservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TwitterStreamingServerApplicationTests {
+class TwitterToKafkaServiceApplicationTests {
 
     @Test
     void contextLoads() {
