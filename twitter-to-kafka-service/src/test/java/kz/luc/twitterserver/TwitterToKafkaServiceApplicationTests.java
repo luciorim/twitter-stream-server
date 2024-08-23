@@ -1,4 +1,4 @@
-package kz.luc.twittertokafkaservice;
+package kz.luc.twitterserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

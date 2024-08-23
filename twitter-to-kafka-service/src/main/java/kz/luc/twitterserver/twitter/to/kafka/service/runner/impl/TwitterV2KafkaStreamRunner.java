@@ -1,7 +1,7 @@
-package kz.luc.twittertokafkaservice.runner.impl;
+package kz.luc.twitterserver.twitter.to.kafka.service.runner.impl;
 
-import kz.luc.twittertokafkaservice.config.TwitterToKafkaServiceConfigData;
-import kz.luc.twittertokafkaservice.runner.StreamRunner;
+import kz.luc.twitterserver.config.TwitterToKafkaServiceConfigData;
+import kz.luc.twitterserver.twitter.to.kafka.service.runner.StreamRunner;
 import lombok.RequiredArgsConstructor;
 import org.apache.hc.core5.http.ParseException;
 import org.slf4j.Logger;

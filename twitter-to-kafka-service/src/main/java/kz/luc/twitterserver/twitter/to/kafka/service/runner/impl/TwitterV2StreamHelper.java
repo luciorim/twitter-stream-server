@@ -1,7 +1,7 @@
-package kz.luc.twittertokafkaservice.runner.impl;
+package kz.luc.twitterserver.twitter.to.kafka.service.runner.impl;
 
-import kz.luc.twittertokafkaservice.config.TwitterToKafkaServiceConfigData;
-import kz.luc.twittertokafkaservice.listener.TwitterKafkaStatusListener;
+import kz.luc.twitterserver.config.TwitterToKafkaServiceConfigData;
+import kz.luc.twitterserver.twitter.to.kafka.service.listener.TwitterKafkaStatusListener;
 import lombok.RequiredArgsConstructor;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
 import org.apache.hc.client5.http.classic.methods.HttpPost;
@@ -20,7 +20,6 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 import twitter4j.Status;
 import twitter4j.TwitterException;

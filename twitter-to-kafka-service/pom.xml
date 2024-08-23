@@ -63,6 +63,11 @@
             <artifactId>httpclient5</artifactId>
             <version>${httpclint5.version}</version>
         </dependency>
+        <dependency>
+            <groupId>kz.luc.twitterserver</groupId>
+            <artifactId>app-config-data</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
 
     </dependencies>

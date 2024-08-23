@@ -8,8 +8,12 @@
         <version>3.3.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <modules>
+        <module>twitter-to-kafka-service</module>
+        <module>app-config-data</module>
+    </modules>
     <groupId>kz.luc</groupId>
-    <artifactId>twitter-streaming-server</artifactId>
+    <artifactId>kz.luc.twitterserver</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>twitter-streaming-server</name>
     <description>twitter-streaming-server</description>
